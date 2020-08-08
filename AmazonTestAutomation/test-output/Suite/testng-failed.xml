@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.amazon.listeners.TestListener"/>
+  </listeners>
+  <test name="Tests(failed)">
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="platformName" value="ANDROID"/>
+    <classes>
+      <class name="com.amazon.tests.ProductTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="initializeDriver"/>
+          <include name="testValidateProductDetails"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.amazon.tests.ProductTest -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

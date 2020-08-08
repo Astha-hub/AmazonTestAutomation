@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41469" started-at="2020-08-08T09:23:11Z" finished-at="2020-08-08T09:23:52Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="41469" started-at="2020-08-08T09:23:11Z" finished-at="2020-08-08T09:23:52Z">
+      <class name="com.amazon.tests.ProductTest">
+        <test-method status="PASS" signature="initializeDriver(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.tests.ProductTest@71bbf57e]" name="initializeDriver" is-config="true" duration-ms="21842" started-at="2020-08-08T14:53:11Z" finished-at="2020-08-08T14:53:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ANDROID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.amazon.tests.ProductTest@71bbf57e]" name="beforeClass" is-config="true" duration-ms="6" started-at="2020-08-08T14:53:33Z" finished-at="2020-08-08T14:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amazon.tests.ProductTest@71bbf57e]" name="beforeMethod" is-config="true" duration-ms="262" started-at="2020-08-08T14:53:33Z" finished-at="2020-08-08T14:53:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amazon.tests.ProductTest.testValidateProductDetails() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testValidateProductDetails()[pri:0, instance:com.amazon.tests.ProductTest@71bbf57e]" name="testValidateProductDetails" duration-ms="16543" started-at="2020-08-08T14:53:33Z" finished-at="2020-08-08T14:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateProductDetails -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.amazon.tests.ProductTest@71bbf57e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-08-08T14:53:50Z" finished-at="2020-08-08T14:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.tests.ProductTest@71bbf57e]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-08T14:53:50Z" finished-at="2020-08-08T14:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.amazon.tests.ProductTest@71bbf57e]" name="afterTest" is-config="true" duration-ms="2783" started-at="2020-08-08T14:53:50Z" finished-at="2020-08-08T14:53:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.amazon.tests.ProductTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<test name="Tests">
+	<listeners>
+
+		<listener class-name="com.amazon.listeners.TestListener" />
+	</listeners>
+	
+
+		<classes>
+			<parameter name="platformName" value="ANDROID" />
+			<parameter name="platformVersion" value="6.0.1" />
+
+			
+			
+			<class name="com.amazon.tests.ProductTest">
+				<methods>
+					<include name="testValidateProductDetails" />
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
